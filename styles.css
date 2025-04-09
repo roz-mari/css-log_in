@@ -25,12 +25,14 @@ body {
 form {
    display: flex;
    flex-direction: column;
+   justify-content: center;
    gap: 10px;
 }
 
 h2.title {
     text-align: center;
     font-size: 28px;
+
 }
 
 .subtitle {
@@ -51,7 +53,7 @@ h2.title {
 .social-login {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -67,7 +69,7 @@ h2.title {
     background-color: #fdfdfd;
     border-radius: 5px;
     border: 1px solid #ddd;
-    padding: 5px;
+    padding: 15px;
 }
 
 .btn-text {
@@ -108,7 +110,7 @@ input:focus {
 
 .forget-pass {
     color: #007BFF;
-    text-decoration: none;
+    text-align: center;
 }
 
 .forget-pass:hover{

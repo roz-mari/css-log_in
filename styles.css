@@ -70,7 +70,8 @@ h2.title {
     border-radius: 5px;
     border: 1px solid #ddd;
     padding: 15px;
-    width: 100%; 
+    width: 100%;
+    gap: 10px;
 }
 .fb-btn{
     display: flex;
@@ -105,6 +106,7 @@ h2.title {
 .or span {
     padding: 0 10px;
 }
+
 .email-login {
     display: flex;
     flex-direction: column;

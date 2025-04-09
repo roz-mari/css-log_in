@@ -62,7 +62,17 @@ h2.title {
     height: 20px;
 }
 
-.google-btn, .fb-btn {
+.google-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfdfd;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 100%; 
+}
+.fb-btn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,7 +86,25 @@ h2.title {
     font-size: 14px;
     color: #444;
 }
-  
+
+.or {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.or::before, .or::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.or span {
+    padding: 0 10px;
+}
 .email-login {
     display: flex;
     flex-direction: column;

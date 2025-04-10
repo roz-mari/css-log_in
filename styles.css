@@ -141,6 +141,7 @@ input:focus {
 .forget-pass {
     color: #007BFF;
     text-align: center;
+    text-decoration: none;
 }
 
 .forget-pass:hover{
